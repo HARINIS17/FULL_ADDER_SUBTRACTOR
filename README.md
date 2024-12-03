@@ -37,19 +37,51 @@ Diff = A ⊕ B ⊕ Bin
 Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
+![Screenshot (98)](https://github.com/user-attachments/assets/221d7b48-69f1-403a-9d45-74d04d088913)
+
+![Screenshot (97)](https://github.com/user-attachments/assets/9b71382d-abe8-430e-bb2e-936746aa9378)
+
+
 
 **Procedure**
 
 Write the detailed procedure here
 
+Step1: Define the specifications and initialize the design.
+
+Step2: Declare the name of the entity and architecture by using VHDL source code.
+
+Step3: Write the source code in VERILOG.
+
+Step4: Check the syntax and debug the errors if found, obtain the synthesis report.
+
+Step5: Verify the output by simulating the source code.
+
+Step6: Write all possible combinations of input using the test bench.
+
+Step7: Obtain the place and route report.
+
 **Program:**
 
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+ Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. 
+ 
+ Developed by:HARINI S
+ 
+ RegisterNumber:24900110
+
 
 **RTL Schematic**
+![Screenshot (96)](https://github.com/user-attachments/assets/967baafd-bb9c-4c09-8ce9-98a6ba1e924c)
+
+![Screenshot (94)](https://github.com/user-attachments/assets/aef8be9f-1db0-438f-9bc1-c7a7de4eabda)
+
+
 
 **Output Timing Waveform**
+![Screenshot (95)](https://github.com/user-attachments/assets/04bc19f7-85b8-423c-8cab-4bbc95cfd589)
+
+![Screenshot (93)](https://github.com/user-attachments/assets/7d511d4c-09bc-4b0e-ba6c-e024fc6d47a2)
+
 
 **Result:**
 
