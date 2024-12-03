@@ -68,6 +68,64 @@ Step7: Obtain the place and route report.
  Developed by:HARINI S
  
  RegisterNumber:24900110
+ 
+**FULL ADDER**
+
+ module fuladbehavioral(a, b, c, sum, carry);
+ 
+ input a;
+ 
+ input b;
+ 
+ input c;
+ 
+ output sum;
+ 
+ output carry;
+ 
+reg sum,carry;
+
+reg t1,t2,t3;
+
+always @ (a or b or c) begin
+
+sum = (a^b)^c;
+
+t1=a & b;
+
+t2=b & c;
+
+t3=a & c;
+
+carry=(t1 | t2) | t3;
+
+end
+
+endmodule
+
+**FULL SUBTRACTOR**
+
+module fulsubdataflow(a, b, cin, diff, borrow);
+
+ input a;
+ 
+ input b;
+ 
+ input cin;
+ 
+ output diff;
+ 
+ output borrow;
+ 
+wire abar;
+
+assign abar= ~ a;
+
+assign diff=a^b^cin;
+
+assign borrow=(abar & b) | (b & cin) |(cin & abar);
+
+endmodule
 
 
 **RTL Schematic**
